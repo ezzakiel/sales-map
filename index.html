@@ -1,0 +1,36 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2708
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww13980\viewh13480\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 <!DOCTYPE html>\
+<html lang="en">\
+<head>\
+    <meta charset="UTF-8">\
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+    <title>Door-to-Door Sales Map</title>\
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>\
+    <link rel="stylesheet" href="style.css"/>\
+</head>\
+<body>\
+    <div id="emoji-bar">\
+        <button onclick="setEmoji('\uc0\u9989 ')">\u9989  Visited</button>\
+        <button onclick="setEmoji('\uc0\u55357 \u57002 ')">\u55357 \u57002  Pending</button>\
+        <button onclick="setEmoji('\uc0\u10060 ')">\u10060  Not Interested</button>\
+        <button onclick="setEmoji('\uc0\u55356 \u57312 ')">\u55356 \u57312  New Lead</button>\
+        <button onclick="setEmoji('\uc0\u55357 \u56542 ')">\u55357 \u56542  Call Back</button>\
+        <button onclick="setEmoji('\uc0\u55357 \u56492 ')">\u55357 \u56492  Follow-Up</button>\
+        <button onclick="setEmoji('\uc0\u10004 \u65039 ')">\u10004 \u65039  Closed</button>\
+        <button onclick="setEmoji('\uc0\u55357 \u57003 ')">\u55357 \u57003  Do Not Visit</button>\
+        <button onclick="setEmoji('\uc0\u11088 ')">\u11088  High Priority</button>\
+        <button onclick="setEmoji('\uc0\u55357 \u56580 ')">\u55357 \u56580  Revisit</button>\
+    </div>\
+    <div id="map"></div>\
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>\
+    <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>\
+    <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>\
+    <script src="script.js"></script>\
+</body>\
+</html>}
